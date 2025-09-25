@@ -18,8 +18,9 @@ jobs:
             - name: "Install Server"
               run: |
                 sudo apt update
-                # sudo apt install nginx -y
+                sudo apt install nginx -y
                 cd /var/www/
                 sudo rm -rf html
                 sudo mkdir html
+                cd html
                 git clone https://github.com/theoafactor/companyweb.com.git .
