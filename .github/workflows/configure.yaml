@@ -20,6 +20,6 @@ jobs:
                 sudo apt update
                 sudo apt install nginx -y
                 cd /var/www/
-                rm -rf html
-                mkdir html
+                sudo rm -rf html
+                sudo mkdir html
                 git clone https://github.com/theoafactor/companyweb.com.git .
