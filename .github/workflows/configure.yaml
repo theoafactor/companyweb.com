@@ -13,3 +13,4 @@ jobs:
               run: |
                 echo "Everything works fine!!!"
                 echo "------------------------"
+                echo "---"
