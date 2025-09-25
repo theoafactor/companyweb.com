@@ -17,5 +17,5 @@ jobs:
 
             - name: "Install Server"
               run: |
+                sudo apt update
                 sudo apt install nginx -y
-                
