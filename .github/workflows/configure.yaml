@@ -23,4 +23,4 @@ jobs:
                 sudo rm -rf html
                 sudo mkdir html
                 cd html
-                git clone https://github.com/theoafactor/companyweb.com.git .
+                sudo git clone https://github.com/theoafactor/companyweb.com.git .
