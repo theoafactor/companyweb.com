@@ -1,0 +1,15 @@
+name: Configure Web
+on: 
+    push: 
+        branches:
+        - master
+        - main
+        - deploy
+jobs: 
+    configure_job: 
+        runs-on: self-hosted
+        steps: 
+            - name: configure application
+              run: |
+                echo "Everything works fine!!!"
+                echo "------------------------"
