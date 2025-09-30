@@ -19,6 +19,10 @@ jobs:
               run: |
                 sudo apt update
                 sudo apt install nginx -y
+            
+              
+            - name: "Download updated source code"
+              run: |
                 cd /var/www/
                 sudo rm -rf html
                 sudo mkdir html
